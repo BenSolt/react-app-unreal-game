@@ -13,7 +13,7 @@ function openGame() {
   return (
     <div>
         <h1>UNREAL GAME</h1>
-      <button onClick={openGame}>Click to Play Game</button>
+      Click to <button onClick={openGame}>Load Game</button> and play
 
     </div>
   );

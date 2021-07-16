@@ -12,7 +12,10 @@ function openGame() {
 
   return (
     <div>
-        <h1>UNREAL GAME</h1>
+        <h1>UNREAL Engine Game</h1>
+        <h2>A simple game created using the Unreal Engine via Blueprints</h2>
+        <h3>Programs used: Unreal Engine, Adobe Flash, AWS to host server</h3>
+
       Click to <button onClick={openGame}>Load Game</button> and play
 
     </div>

@@ -1,0 +1,46 @@
+.unrealGamePage {
+    align-content: center;
+    display: grid;
+    margin: 0 auto;
+    /* max-width: 680px; */
+    min-height: 100vh;
+    padding: 0 6%;
+    text-align: center;
+}
+
+.title{
+border: 2px solid black;
+}
+
+.sectionTop {
+    display: flex;
+}
+
+.imageGame {
+    width: auto;
+    height: 200px;
+}
+
+.imageHolder  {
+    flex-wrap: wrap;
+}
+img {
+    margin: 4px;
+}
+
+.imageGameTitle  {
+    width: auto;
+    height: 150px;
+}
+
+.btnGame{
+width: 128px;
+height: 32px;
+border: 2px solid black;
+border-radius: 3px;
+}
+.btnGame:hover {
+    background: rgb(77, 77, 251);
+    color: white;
+    cursor: pointer;
+}

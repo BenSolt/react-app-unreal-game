@@ -14,7 +14,9 @@ function openGame() {
     <div>
         <h1>UNREAL Engine Game</h1>
         <h2>A simple game created using the Unreal Engine via Blueprints</h2>
-        <h3>Programs used: Unreal Engine, Adobe Flash, AWS to host server</h3>
+        <h3>Programs used: Unreal Engine, Adobe Flash - artwork, AWS to host server</h3>
+        <h3>Add some screenshots</h3>
+        <img alt="screen shot of game"/>
 
       Click to <button onClick={openGame}>Load Game</button> and play
 

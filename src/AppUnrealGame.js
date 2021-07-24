@@ -17,25 +17,21 @@ function UnrealGame() {
   const Click1 = () => {
     console.log('click')
     document.getElementById("img01").src = Image1;
-    //element.src;
     document.getElementById("myModal").style.display = 'block'
   }
 
   const Click2 = () => {
     document.getElementById("img01").src = Image2;
-    //element.src;
     document.getElementById("myModal").style.display = 'block'
   }
 
   const Click3 = () => {
     document.getElementById("img01").src = Image3;
-    //element.src;
     document.getElementById("myModal").style.display = 'block'
   }
 
   const Click4 = () => {
     document.getElementById("img01").src = Image4;
-    //element.src;
     document.getElementById("myModal").style.display = 'block'
   }
 

@@ -14,6 +14,11 @@ function UnrealGame() {
     window.open("https://blakesquestgame.s3.us-east-2.amazonaws.com/BlakesAdventure.html");
   }
 
+// ASTRO BEAR 2 Player Co op Game
+function openGameCoop() {
+  window.open("https://unrealgamebrowsercoop.s3.amazonaws.com/AstroBear.html");
+  }
+
   const Click1 = () => {
     console.log('click')
     document.getElementById("img01").src = Image1;
@@ -61,7 +66,12 @@ function UnrealGame() {
           <h4>Click <button className="btnGame" onClick={openGame}>Load Game</button> to play</h4>
           <h5>Side scroller game where you earn new abilities as you progress through the game, which enables you to explore new
             locations. Learn abilities like double jump, wall climb, and even a jetpack</h5>
+
+            <h4>Click <button className="btnGame" onClick={openGameCoop}>Load Game Co-op</button> to play</h4>
+            <h5>Side scroller Co op game</h5>
         </div>
+
+        
 
         <div className='sectionTopB'>
           <iframe className='videoSize'
